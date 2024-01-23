@@ -2,7 +2,7 @@
 This program implements the Variable Byte Code (VBC) algorithm in Python for encoding and decoding
 integers. The VBC algorithm is used to compress integers into a series of bytes.
 ***
-### Screenshot
+### Example
 ![Screenshot 2024-01-23 172417](https://github.com/pansk-p/Variable-byte-VB-encoding-/assets/139992839/c4d1f1df-9677-4829-884f-a4b0e1881a40)
 
 ***
