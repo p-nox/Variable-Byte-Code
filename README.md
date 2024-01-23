@@ -1,9 +1,6 @@
 ### General Info
 This program implements the Variable Byte Code (VBC) algorithm in Python for encoding and decoding
 integers. The VBC algorithm is used to compress integers into a series of bytes.
-***
-### Example
-![Screenshot 2024-01-23 172417](https://github.com/pansk-p/Variable-byte-VB-encoding-/assets/139992839/c4d1f1df-9677-4829-884f-a4b0e1881a40)
 
 ***
 ## Here are the main functions and features of the program
@@ -25,4 +22,37 @@ the program. It performs input validation to ensure correct user input. The enco
 decoding processes involve converting integers to/from their VBC representation and binary
 strings.
 
-**Run the Python script by entering ```python VariableByteCode.py```.**
+1. **Run the Python Script:** ```python vbc_encoder_decoder.py```
+
+2. **Follow the Instructions:**
+   
+    Enter ```1``` to encode a positive integer.
+   
+    Enter ```2``` to decode a Variable Byte Code bitstring.
+   
+    Enter ```3``` to exit the script.
+***   
+### Examples
+
+**Encode**
+
+     Enter 1-to encode, 2-to decode, 3-to exit: 1
+     
+     Enter a number to encode: 42
+     
+     The Variable Byte Code of 42 is: 101010
+     
+
+
+**Decode**
+
+     Enter 1-to encode, 2-to decode, 3-to exit: 2
+     
+     Enter the bitstring to decode: 101010
+     
+     The Variable Byte Code of 101010 is: [42]
+
+***   
+### Notes
+ * The script ensures correct input formats during encoding and decoding.
+ * Be sure to enter positive integers for encoding.
