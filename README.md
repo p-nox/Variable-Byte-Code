@@ -3,7 +3,7 @@ This program implements the Variable Byte Code (VBC) algorithm in Python for enc
 integers. The VBC algorithm is used to compress integers into a series of bytes.
 
 ***
-## Here are the main functions and features of the program
+## Features
 1. **encode_number(number)**: Takes an integer as input and returns its Variable Byte
 Code. The algorithm uses a 7-bit encoding method, where each byte consists of 7 data
 bits, and the most significant bit (MSB) is a continuation flag.
@@ -15,7 +15,7 @@ integers.
 5. **main()**: Provides a simple user interface for encoding and decoding integers using the
 VBC algorithm.
 ***
-### A little intro about how to use. 
+### How to use
 
 The program continuously prompts the user to choose between encoding, decoding, or exiting
 the program. It performs input validation to ensure correct user input. The encoding and
