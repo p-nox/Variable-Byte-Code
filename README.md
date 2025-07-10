@@ -57,4 +57,3 @@ strings.
 ***   
 ### Notes
  * The script ensures correct input formats during encoding and decoding.
- * Be sure to enter positive integers for encoding.
