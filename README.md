@@ -1,6 +1,8 @@
 ### General Info
 This program implements the Variable Byte Code (VBC) algorithm in Python for encoding and decoding
 integers. The VBC algorithm is used to compress integers into a series of bytes.
+Variable Byte Code (VBC) is a binary encoding scheme used in information retrieval systems and data compression. 
+It encodes integers using one or more bytes. Each byte uses the most significant bit (MSB) to indicate whether it is the **last byte** (`1`) or if more bytes follow (`0`).
 
 ***
 ## Features
